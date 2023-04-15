@@ -2,8 +2,8 @@ import streamlit as st
 import streamlit.components.v1 as components
 from PIL import Image
 
-st.set_page_config(layout='wide',initial_sidebar_state="expanded",)
-col1,col2 = st.columns((5,8))
+st.set_page_config(initial_sidebar_state="expanded")
+col1,col2 = st.columns((3,2))
 st.sidebar.title('Sophie')
 st.sidebar.text("Hi There! My Name is Sophie.")
 st.sidebar.text(" I am your Virtual Retail Assistant ,\n designed to assist you with any \n questions or concerns you may have.")
@@ -27,9 +27,9 @@ with col1:
 with col2:
     components.html(
     """
-            <iframe width="800" height="700" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/d94eb81d-1d83-4539-a638-92b3d6f09af1"></iframe>
+            <iframe width="400" height="700" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/d94eb81d-1d83-4539-a638-92b3d6f09af1"></iframe>
 """,
-                 height=800,
-                 width=900
+                 height=710,
+                 width=450
 
 )
