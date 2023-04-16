@@ -4,11 +4,12 @@ from PIL import Image
 
 st.set_page_config(layout="wide",initial_sidebar_state="expanded")
 col1,col2 = st.columns((2))
+
 st.sidebar.title('Sophie')
 st.sidebar.text("Hi There! My Name is Sophie.")
-st.sidebar.text(" I am your Virtual Retail Assistant ,\n designed to assist you with any \n questions or concerns you may have.")
-st.sidebar.text(" Whether you're looking for \n information about our returns Policies, \n Discounts and Offers  or Click \n and Collect services, or need help with \n an issue you're experiencing, \n I'm here to provide quick and \n efficient support. ")
-st.sidebar.text("Please feel free to ask me anything \n and I'll do my best to assist you.\n Type In 'Hello' followed by your \n Question and I will solve it \n for you right away!")
+st.sidebar.text(" I am your Primark Virtual Retail \n Assistant ,designed to assist you \n with any  questions or concerns you \n may have.")
+st.sidebar.text(" Whether you're looking for \n information about our returns \n Policies,  Discounts and Offers \n or Click  and Collect services, \n or need help with  an issue \n you're experiencing, \n I'm here to provide quick and  \n efficient support. ")
+st.sidebar.text("Please feel free to ask me anything \nand I'll do my best to assist you.\nType In 'Hello' followed by your\nQuestion and I will solve it \nfor you right away!")
 
 
 
